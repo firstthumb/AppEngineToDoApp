@@ -34,7 +34,7 @@ public class TodoRest {
     }
 
     @ApiMethod(name = "todo.list", httpMethod = "get")
-    public List<TodoEntity> list(TodoEntity todoEntity) {
+    public List<TodoEntity> list() {
         logger.debug("List todo");
         List<TodoEntity> result = new ArrayList<>();
 
